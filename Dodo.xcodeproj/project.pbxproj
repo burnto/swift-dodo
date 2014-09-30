@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840A7F4A19D517F200D83580 /* Dodo.h in Headers */ = {isa = PBXBuildFile; fileRef = 840A7F4819D517F200D83580 /* Dodo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840A7F4B19D5180A00D83580 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A7F2819D5153D00D83580 /* FileReader.swift */; };
+		840A7F5119D5191200D83580 /* haiku.txt in Resources */ = {isa = PBXBuildFile; fileRef = 840A7F5019D5191200D83580 /* haiku.txt */; };
+		840A7F5219D5191500D83580 /* ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A7F1F19D512F700D83580 /* ReaderTests.swift */; };
+		84DE16FB19D51DC7000AD76E /* Readers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE16FA19D51DC7000AD76E /* Readers.swift */; };
+		84DE16FE19D52C78000AD76E /* twinkle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84DE16FC19D52C78000AD76E /* twinkle.txt */; };
+		84DE16FF19D52C78000AD76E /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DE16FD19D52C78000AD76E /* TemplateIcon2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840A7F4D19D5185800D83580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840A7ED719D5042800D83580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840A7F2F19D5179A00D83580;
+			remoteInfo = StreamScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840A7F1E19D512F700D83580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A7F1F19D512F700D83580 /* ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderTests.swift; sourceTree = "<group>"; };
+		840A7F2819D5153D00D83580 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		840A7F4719D517F200D83580 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A7F4819D517F200D83580 /* Dodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dodo.h; sourceTree = "<group>"; };
+		840A7F5019D5191200D83580 /* haiku.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = haiku.txt; sourceTree = "<group>"; };
+		84DE16FA19D51DC7000AD76E /* Readers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Readers.swift; sourceTree = "<group>"; };
+		84DE16FC19D52C78000AD76E /* twinkle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = twinkle.txt; sourceTree = "<group>"; };
+		84DE16FD19D52C78000AD76E /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		84DE171619DA64BF000AD76E /* Dodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE171719DA64BF000AD76E /* DodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840A7F2C19D5179A00D83580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840A7F3719D5179A00D83580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840A7ED619D5042800D83580 = {
+			isa = PBXGroup;
+			children = (
+				840A7F1219D512F700D83580 /* Source */,
+				840A7F1C19D512F700D83580 /* Tests */,
+				84DE171619DA64BF000AD76E /* Dodo.framework */,
+				84DE171719DA64BF000AD76E /* DodoTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		840A7F1219D512F700D83580 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				840A7F4719D517F200D83580 /* Info.plist */,
+				840A7F4819D517F200D83580 /* Dodo.h */,
+				840A7F2819D5153D00D83580 /* FileReader.swift */,
+				84DE16FA19D51DC7000AD76E /* Readers.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		840A7F1C19D512F700D83580 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				840A7F1F19D512F700D83580 /* ReaderTests.swift */,
+				840A7F5019D5191200D83580 /* haiku.txt */,
+				84DE16FC19D52C78000AD76E /* twinkle.txt */,
+				840A7F1D19D512F700D83580 /* Supporting Files */,
+				84DE16FD19D52C78000AD76E /* TemplateIcon2x.png */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		840A7F1D19D512F700D83580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840A7F1E19D512F700D83580 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		840A7F2D19D5179A00D83580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A7F4A19D517F200D83580 /* Dodo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		840A7F2F19D5179A00D83580 /* Dodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840A7F4019D5179A00D83580 /* Build configuration list for PBXNativeTarget "Dodo" */;
+			buildPhases = (
+				840A7F2B19D5179A00D83580 /* Sources */,
+				840A7F2C19D5179A00D83580 /* Frameworks */,
+				840A7F2D19D5179A00D83580 /* Headers */,
+				840A7F2E19D5179A00D83580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dodo;
+			productName = StreamScanner;
+			productReference = 84DE171619DA64BF000AD76E /* Dodo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		840A7F3919D5179A00D83580 /* DodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840A7F4319D5179A00D83580 /* Build configuration list for PBXNativeTarget "DodoTests" */;
+			buildPhases = (
+				840A7F3619D5179A00D83580 /* Sources */,
+				840A7F3719D5179A00D83580 /* Frameworks */,
+				840A7F3819D5179A00D83580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840A7F4E19D5185800D83580 /* PBXTargetDependency */,
+			);
+			name = DodoTests;
+			productName = StreamScannerTests;
+			productReference = 84DE171719DA64BF000AD76E /* DodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840A7ED719D5042800D83580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					840A7F2F19D5179A00D83580 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					840A7F3919D5179A00D83580 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 840A7EDA19D5042800D83580 /* Build configuration list for PBXProject "Dodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840A7ED619D5042800D83580;
+			productRefGroup = 840A7ED619D5042800D83580;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840A7F2F19D5179A00D83580 /* Dodo */,
+				840A7F3919D5179A00D83580 /* DodoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840A7F2E19D5179A00D83580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840A7F3819D5179A00D83580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A7F5119D5191200D83580 /* haiku.txt in Resources */,
+				84DE16FE19D52C78000AD76E /* twinkle.txt in Resources */,
+				84DE16FF19D52C78000AD76E /* TemplateIcon2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840A7F2B19D5179A00D83580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE16FB19D51DC7000AD76E /* Readers.swift in Sources */,
+				840A7F4B19D5180A00D83580 /* FileReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840A7F3619D5179A00D83580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A7F5219D5191500D83580 /* ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840A7F4E19D5185800D83580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840A7F2F19D5179A00D83580 /* Dodo */;
+			targetProxy = 840A7F4D19D5185800D83580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		840A7EDB19D5042800D83580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		840A7EDC19D5042800D83580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		840A7F4119D5179A00D83580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Dodo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		840A7F4219D5179A00D83580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dodo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		840A7F4419D5179A00D83580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DodoTests;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840A7F4519D5179A00D83580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DodoTests;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840A7EDA19D5042800D83580 /* Build configuration list for PBXProject "Dodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A7EDB19D5042800D83580 /* Debug */,
+				840A7EDC19D5042800D83580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840A7F4019D5179A00D83580 /* Build configuration list for PBXNativeTarget "Dodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A7F4119D5179A00D83580 /* Debug */,
+				840A7F4219D5179A00D83580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840A7F4319D5179A00D83580 /* Build configuration list for PBXNativeTarget "DodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A7F4419D5179A00D83580 /* Debug */,
+				840A7F4519D5179A00D83580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840A7ED719D5042800D83580 /* Project object */;
+}
